@@ -3,7 +3,6 @@
   min-height: 100vh;
 }
 
-/* HERO */
 
 .about-hero {
   text-align: center;
@@ -29,7 +28,7 @@
   color: #e6ecf4;
 }
 
-/* MISSION */
+
 
 .about-grid {
   display: grid;
@@ -60,7 +59,7 @@
   line-height: 1.8;
 }
 
-/* FEATURES */
+
 
 .features-section {
   padding: 60px;
@@ -95,7 +94,7 @@
   color: white;
 }
 
-/* TECHNOLOGIES */
+
 
 .tech-section {
   padding: 60px;
@@ -122,7 +121,6 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
-/* STATS */
 
 .stats-section {
   padding: 80px 40px;
@@ -149,7 +147,6 @@
   margin-top: 10px;
 }
 
-/* MOBILE */
 
 @media(max-width:768px){
 
