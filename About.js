@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about-page">
 
-      {/* Hero Section */}
+
       <section className="about-hero">
         <h1>About Country Explorer</h1>
 
@@ -15,7 +15,6 @@ function About() {
         </p>
       </section>
 
-      {/* Mission & Vision */}
 
       <section className="about-grid">
 
@@ -41,7 +40,7 @@ function About() {
 
       </section>
 
-      {/* Features */}
+  
 
       <section className="features-section">
 
@@ -77,8 +76,6 @@ function About() {
 
       </section>
 
-      {/* Technologies */}
-
       <section className="tech-section">
 
         <h2>💻 Technologies Used</h2>
@@ -96,7 +93,7 @@ function About() {
 
       </section>
 
-      {/* Statistics */}
+      
 
       <section className="stats-section">
 
