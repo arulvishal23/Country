@@ -1,0 +1,56 @@
+.details-container {
+  padding: 40px;
+  background: #f8fafc;
+}
+
+.details-card {
+  display: flex;
+  gap: 40px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.country-flag {
+  width: 450px;
+  border-radius: 15px;
+}
+
+.details-info {
+  flex: 1;
+}
+
+.details-info h1 {
+  color: #1e40af;
+  margin-bottom: 20px;
+}
+
+.details-info p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.back-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.map-section {
+  margin-top: 40px;
+}
+
+.map-section h2 {
+  margin-bottom: 20px;
+  color: #1e40af;
+}
+
+iframe {
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}

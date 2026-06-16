@@ -1,0 +1,60 @@
+.docs-container {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 50px;
+}
+
+.docs-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.docs-header h1 {
+  font-size: 55px;
+  color: #0f172a;
+}
+
+.docs-header p {
+  font-size: 22px;
+  color: #64748b;
+  margin-top: 10px;
+}
+
+.docs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+.doc-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.doc-card:hover {
+  transform: translateY(-8px);
+}
+
+.doc-card h2 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.doc-card p {
+  color: #475569;
+  line-height: 1.7;
+}
+
+.doc-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.doc-card li {
+  margin: 8px 0;
+  color: #334155;
+}
+

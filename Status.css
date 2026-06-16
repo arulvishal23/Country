@@ -1,0 +1,57 @@
+.status-page {
+  padding: 50px;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.status-header h1 {
+  color: #1e2a78;
+  margin-bottom: 5px;
+}
+
+.status-header p {
+  color: gray;
+}
+
+.status-table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  background: white;
+}
+
+.status-table th,
+.status-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.status-table th {
+  background: #f0f0f0;
+}
+
+.status-table tr:hover {
+  background: #f9f9f9;
+}
+
+.status-footer {
+  margin-top: 50px;
+  background: #eceff3;
+  padding: 30px;
+  text-align: center;
+}
+
+.status-footer button {
+  margin: 10px;
+  padding: 12px 25px;
+  background: #ff7a00;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.status-footer button:hover {
+  background: #e56700;
+}
