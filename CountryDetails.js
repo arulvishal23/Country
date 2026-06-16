@@ -55,7 +55,7 @@ function CountryDetails() {
 
       </div>
 
-      {/* MAP */}
+     
 
       <div className="map-section">
 
