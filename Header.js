@@ -2,11 +2,11 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
-  const navigate = useNavigate(); // <-- add this
+  const navigate = useNavigate(); 
 
   const logout = () => {
     localStorage.removeItem("isLoggedIn");
-    navigate("/"); // <-- now it works
+    navigate("/");
   };
 
   return (
